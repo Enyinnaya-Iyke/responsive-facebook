@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+header {
+    margin-top: 5px;
+}
+img {
+    width: 50px;
+    border-radius: 50%;
+}
+.navigation {
+    display: inline-flex;
+    width: 100%;
+    box-shadow: 0 2px 7px -7px black;
+    justify-content: space-between;
+}
+.logo-and-search {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.logo-and-search img {
+    width: 40px;
+    margin: 5px 10px 0 20px;
+}
+.search-box {
+    position: relative;
+    margin: 0;
+}
+.search-box i {
+    position: absolute;
+    margin: 0 8px;
+    bottom: 50%;
+    transform: translateY(40%);
+}
+.search-box input[type=search] {
+    padding: 15px;
+    padding-left: 30px;
+    background-color: #f8f6f6;
+    border: none;
+    border-radius: 25px;
+}
+input:focus {
+    border: none;
+}
+.middle-nav {
+    margin: 20px;
+}
+.middle-nav i {
+    font-size: large;
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+.middle-nav a {
+    margin-top: 2px;
+    padding: 20px 50px;
+    border-radius: 10px;
+    position: relative;
+}
+.middle-nav a:focus {
+    border-bottom: 3px solid blue;
+    border-radius: 0;
+    color: blue;
+}
+.hidden-text {
+    color: white;
+    position: absolute;
+    background-color: black;
+    padding: 5px;
+    right: 25%;
+    display: block;
+    margin-top: 30px;
+    display: none;
+    border-radius: 4px;
+}
+.middle-nav a:hover {
+    background-color: #f8f6f6;
+}
+.middle-nav a:hover .hidden-text {
+    display: block;
+}
+.top-menu {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-menu a {
+    padding: 10px;
+    background-color: #f8f6f6;
+    color: black;
+    margin: 0 5px;
+    border-radius: 25px;
+    display: inline-flex;
+}
+.top-menu a i {
+    font-size: large;
+}
+.top-menu .profile-image {
+    margin: 0;
+    background-color: white;
+}
+.top-menu a:hover {
+    background-color: #dddddd;
+}
+.top-menu .profile-image:hover {
+    background-color: white;
+    opacity: 0.9;
+}
+.top-menu .profile-image:focus {
+    background-color: white;
+}
+.top-menu a:focus {
+    background-color: #e4e4f3;
+    color: blue;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+}
