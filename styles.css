@@ -23,6 +23,9 @@ img {
     padding: 0;
     margin: 0;
 }
+.logo-and-search h1 {
+    display: none;
+}
 .logo-and-search img {
     width: 40px;
     margin: 5px 10px 0 20px;
@@ -196,9 +199,11 @@ a {
     
 }
 
-@media only screen and (max-width:320px) {
+@media only screen and (max-width:319px) {
 
     /* MOBILE */
-    
+    .logo-and-search h1 {
+        display: block;
+    }
 
 }
