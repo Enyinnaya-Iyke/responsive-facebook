@@ -187,9 +187,18 @@ a {
 
 }
 
-@media only screen and (max-width:320px) { 
-    
-    /* MOBILE */
+@media only screen and (min-width:320px)  and (max-width:600px) {
 
+    /* DESKTOP-MOBILE */
+    .middle-nav {
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width:320px) {
+
+    /* MOBILE */
+    
 
 }
