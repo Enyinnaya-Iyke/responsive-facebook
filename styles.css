@@ -23,9 +23,6 @@ img {
     padding: 0;
     margin: 0;
 }
-.logo-and-search h1 {
-    display: none;
-}
 .logo-and-search img {
     width: 40px;
     margin: 5px 10px 0 20px;
@@ -129,6 +126,9 @@ a {
         border: none;
         border-radius: 25px;
     }
+    .logo-and-search h1 {
+        display: none;
+    }
     .middle-nav {
         margin: 20px;
     }
@@ -164,6 +164,9 @@ a {
     .logo-and-search img {
         width: 40px;
         top: 0;
+    }
+    .logo-and-search h1 {
+        display: none;
     }
     .search-box input[type=search] {
         display: none;
