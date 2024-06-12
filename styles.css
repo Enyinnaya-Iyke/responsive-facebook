@@ -147,6 +147,9 @@ a {
     .middle-nav a:last-of-type {
         display: none;
     }
+    .mobile-top {
+        display: none;
+    }
     
 }
 
@@ -190,10 +193,13 @@ a {
     .top-menu a:nth-of-type(3) {
         display: none;
     }
+    .mobile-top {
+        display: none;
+    }
 
 }
 
-@media only screen and (min-width:500px)  and (max-width:650px) {
+@media only screen and (min-width:501px)  and (max-width:650px) {
 
     /* DESKTOP-MOBILE */
     .logo-and-search input {
@@ -213,14 +219,15 @@ a {
     .top-menu a:nth-of-type(3) {
         display: none;
     }
+    .mobile-top {
+        display: none;
+    }
     
 }
 
-@media only screen and (max-width:499px) {
+@media only screen and (max-width:500px) {
 
     /* MOBILE */
-    .logo-and-search h1 {
-        display: block;
-    }
+    
 
 }
