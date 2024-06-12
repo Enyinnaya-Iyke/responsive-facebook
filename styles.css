@@ -157,7 +157,7 @@ a {
         position: absolute;
         bottom: 50%;
         transform: translateY(50%);
-        background-color: #dddddd;
+        background-color: #f8f6f6;
         padding: 10px;
         border-radius: 50%;
     }
@@ -193,7 +193,7 @@ a {
 
 }
 
-@media only screen and (min-width:500px)  and (max-width:620px) {
+@media only screen and (min-width:500px)  and (max-width:650px) {
 
     /* DESKTOP-MOBILE */
     .logo-and-search input {
