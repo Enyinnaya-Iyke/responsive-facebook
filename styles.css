@@ -245,6 +245,9 @@ a {
 @media only screen and (max-width:500px) {
 
     /* MOBILE */
+    .navigation {
+        display: block;
+    }
     .logo-and-search {
         width: 100%;
     }
@@ -282,7 +285,7 @@ a {
         display: none;
     }
     .mobile-appear {
-        display: none;
+        display: inline;
     }
     .mobile-disappear {
         display: none;
