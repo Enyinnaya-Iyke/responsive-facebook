@@ -213,7 +213,7 @@ a {
 
 }
 
-@media only screen and (min-width:500px)  and (max-width:650px) {
+@media only screen and (min-width:450px)  and (max-width:650px) {
 
     /* DESKTOP-MOBILE */
     .logo-and-search input {
@@ -242,7 +242,7 @@ a {
     
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:450px) {
 
     /* MOBILE */
     .navigation {
@@ -286,7 +286,7 @@ a {
     }
     .mobile-appear {
         display: inline;
-        padding: 5px 20px;
+        padding: 5px 15px;
         margin: 5px;
         width: 100%;
     }
