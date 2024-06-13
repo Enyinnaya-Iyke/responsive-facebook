@@ -39,9 +39,7 @@ img {
 a {
     text-decoration: none;
 }
-.middle-nav a:focus {
-    border-bottom: 3px solid blue;
-    border-radius: 0;
+.middle-nav a:focus i{
     color: blue;
 }
 .hidden-text {
@@ -132,6 +130,11 @@ a {
     .middle-nav {
         margin: 20px;
     }
+    .middle-nav a:focus {
+        border-bottom: 3px solid blue;
+        border-radius: 0;
+        color: blue;
+    }
     input:focus {
         border: none;
     }
@@ -187,6 +190,11 @@ a {
     .middle-nav {
         margin-left: 50px;
     }
+    .middle-nav a:focus {
+        border-bottom: 3px solid blue;
+        border-radius: 0;
+        color: blue;
+    }
     .top-menu .profile-image {
         margin-right: 10px;
     }
@@ -205,7 +213,7 @@ a {
 
 }
 
-@media only screen and (min-width:501px)  and (max-width:650px) {
+@media only screen and (min-width:500px)  and (max-width:650px) {
 
     /* DESKTOP-MOBILE */
     .logo-and-search input {
@@ -237,19 +245,19 @@ a {
 @media only screen and (max-width:500px) {
 
     /* MOBILE */
+    .logo-and-search {
+        width: 100%;
+    }
     .mobile-top {
         width: 100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         font-size: larger;
     }
     .mobile-top a h1 {
         padding: 0 5px;
         margin: 0;
         color: #1566cf;
-    }
-    .mobile-top span {
-        margin-left: 220px;
     }
     .mobile-top span i {
         margin: 2px;
@@ -267,9 +275,6 @@ a {
     .top-menu {
         display: none;
     }
-    .top-menu a:nth-of-type(3) {
-        display: none;
-    }
     .logo-and-search .search-box {
         display: none;
     }
@@ -277,11 +282,13 @@ a {
         display: none;
     }
     .mobile-appear {
-        display: block;
-        
+        display: none;
     }
     .mobile-disappear {
         display: none;
+    }
+    .middle-nav {
+        display: block;
     }
     .middle-nav a:hover .hidden-text {
         display: none;
