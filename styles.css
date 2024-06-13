@@ -286,15 +286,23 @@ a {
     }
     .mobile-appear {
         display: inline;
+        padding: 5px 20px;
+        margin: 5px;
+        width: 100%;
     }
     .mobile-disappear {
         display: none;
     }
     .middle-nav {
-        display: block;
+        width: 100%;
+        margin: 15px 0;
+        display: inline-block;
     }
     .middle-nav a:hover .hidden-text {
         display: none;
+    }
+    .middle-nav a:hover {
+        background: none;
     }
 
 }
